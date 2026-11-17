@@ -1,7 +1,5 @@
 name: Prepare fastbuild toolchain
-on:
-  schedule:
-  workflow_dispatch:
+on: workflow_dispatch
 permissions: write-all
 jobs:
   build:
