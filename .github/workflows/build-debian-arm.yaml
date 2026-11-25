@@ -1,6 +1,5 @@
 name: Build new debian-arm container
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 permissions:
   contents: read
   packages: write
