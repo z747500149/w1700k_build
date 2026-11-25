@@ -1,10 +1,5 @@
 name: zbackup ubi2 and kernel74
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '40 4 * * 0'
-
+on: workflow_dispatch
 env:
   REMOTE_REPOSITORY: OpenWRT-fanboy/OpenW1700k
 
